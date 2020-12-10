@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html > 
+	<head> 
+		<meta charset="UTF-8"> 
+		<title>Document</title> 
+		<style> 	
+			.table{ 
+				height:400px; 
+				width:400px; 
+				display:flex; 
+				flex-wrap: wrap; 
+				margin-left: auto;
+                margin-right: auto;
+				background:linear-gradient(150deg, blue 3%,green 23%, yellow 35%, red 70% );
+			} 
+			.table div{ 
+				height:85px; 
+				width:85px; 
+				background-color:white; 
+				border:4px solid black ; 
+				margin:2px; 
+				padding:1px;
+				color:blue; 
+				font-size:40px; 
+				border-radius:10px;
+				text-align: center;
+				line-height: 85px;
+			} 
+			.result{
+				height:100px; 
+				width:400px; 
+				background:linear-gradient(150deg, blue 50%, green 70%, yellow 100%);
+				color:black;
+				text-align:center;
+				font-size:25px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.button{
+				border-radius:15px;
+				height:35px; 
+				width:35px; 
+			}
+		</style> 
+	</head> 
+	<body bgcolor="#D5AC89"> 
+		<div class="result"> набор очков: 
+			<div class="point"></div> 
+			<button class="button" onclick="startNewGame()">GO</button> 
+		</div>
+		<div class="table"> 
+			<div class="number" style="color:white"></div> 
+			<div class="number" style="color:white"></div> 
+			<div class="number" style="color:white"></div> 
+			<div class="number" style="color:white"></div> 
+
+			<div class="number" style="color:white"></div> 
+			<div class="number" style="color:white"></div> 
+			<div class="number" style="color:white"></div> 
+			<div class="number" style="color:white"></div> 
+
+			<div class="number" style="color:white"></div> 
+			<div class="number" style="color:white"></div> 
+			<div class="number" style="color:white"></div> 
+			<div class="number" style="color:white"></div> 
+
+			<div class="number" style="color:white"></div> 
+			<div class="number" style="color:white"></div> 
+			<div class="number" style="color:white"></div> 
+			<div class="number" style="color:white"></div> 
+		</div> 
+		<script type="text/javascript"src="2048-2.js"></script> 
+	</body> 
+</html>
